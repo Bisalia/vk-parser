@@ -33,13 +33,11 @@ pip install flask, rq, redis
 
 и для скрапинг & очередь задач необходимо создать виртуальной среды
     python -m venv env
-
     source env/Script/activate 
 
 затем создать среду разработки
     export FLASK_APP=run.py
     export FLASK_ENV=development
-
     flask run
 
 чтобы запускать сервер redis 
