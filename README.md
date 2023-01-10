@@ -32,8 +32,9 @@ pip install flask, rq, redis
     driver = webdriver.Chrome('D:\\parsing_1\\chomedriver\\chromedriver.exe', options=options)
 
 и для скрапинг & очередь задач необходимо создать виртуальной среды
+
     python -m venv env
-    source env/Script/activate 
+    source env/Scripts/activate 
 
 затем создать среду разработки
 
